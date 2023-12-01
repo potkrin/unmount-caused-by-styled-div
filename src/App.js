@@ -32,17 +32,17 @@ function TabPanel(props) {
   );
 }
 
+// <div className="App"></div> の背景色を変更するために styled-components を使用
+const AppDiv = styled("div")(() => ({
+  backgroundColor: "white",
+}));
+
 function App() {
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
-  // <div className="App"></div> の背景色を変更するために styled-components を使用
-  const AppDiv = styled("div")(() => ({
-    backgroundColor: "white",
-  }));
 
   return (
     <>
