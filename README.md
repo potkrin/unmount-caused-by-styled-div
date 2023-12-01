@@ -18,7 +18,7 @@ ChatGPT 4
 
 再現手順
 ```sh
-git clone 
+git clone git@github.com:potkrin/unmount-caused-by-styled-div.git
 cd unmount-caused-by-styled-div
 
 # npm を導入しておいてください
